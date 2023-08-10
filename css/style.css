@@ -39,6 +39,7 @@
 
 
 /*!-------------HEADER-------------!*/
+
 header {
     background-color: black;
     z-index: 10;
@@ -205,32 +206,7 @@ main section ol li{
 }
 
 
-.contenedor-productos {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    border: 2px solid black;
-    text-align: center;
-    width: 100%;
-    color: beige;
-}
 
-.contenedor-productos > div {
-    flex-basis: 33.3%;
-    display: flex; 
-    flex-direction: column;
-    row-gap: 10px;
-    width: 90%; 
-}
-
-.contenedor-productos > div img{
-    height: 320px;
-    width: 250px;
-    margin: 0 auto;
-    border-radius: 10px;
-    height: 300px;
-    max-width: 100%;
-}
 
 .boton {
     text-decoration: none;
@@ -255,6 +231,7 @@ main section ol li{
 }
 
 
+
 /*!-------------FOOTER-------------!*/
 
 
@@ -274,34 +251,3 @@ footer h2 {
     left: 10px;
 }
 
-
-
-
-/* todo lo que se borró para flexbox
-
-header nav ul li {
-    display: inline-block;
-    margin: 50px;
-}
-
-.productos div {
-    border: 2px solid black;
-    width: 250px;
-    height: 400px;
-    text-align: center;
-    background-color: black;
-    color: beige;
-    margin: 60px;
-    display: inline-block;
-}
-
-.ofertas div {
-    border: 2px solid black;
-    width: 250px;
-    height: 400px;
-    text-align: center;
-    background-color: black;
-    color: beige;
-    margin: 60px;
-    display: inline-block;
-} */

@@ -173,7 +173,6 @@ main section ol li{
     text-align: center;
     background-color: black;
     color: beige;
-    margin: 60px;
 }
 
 .productos h3 {
@@ -205,7 +204,10 @@ main section ol li{
     width: 250px;
 }
 
-
+.custom-img-catalogo{
+    display: flex;
+    justify-content: center;
+}
 
 
 .boton {
